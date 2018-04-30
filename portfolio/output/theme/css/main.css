@@ -23,9 +23,19 @@ background-color: gostwhite;
     padding: 7%;   
 }
 
+.content{
+    padding: 7%; 
+    padding-top: 5%;
+}
+
 .intro p::first-letter { 
     font-size: 150%;
     color: darkred;
+}
+
+
+h2, h3, h4{
+    margin-bottom: 1em;
 }
 
 h1 a { color: inherit !important }
@@ -189,7 +199,6 @@ pre {
   opacity: 0.5;
   display: block;
   width: 100%;
-  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 /*    border-radius: 7px;*/
@@ -202,9 +211,35 @@ pre {
 
 /*IMAGES*/
 
-img[alt=small] { 
+img[alt=tiny] { 
     float: right; 
-    width: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+img[alt=medium] { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+img[alt=small] { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+img[alt=large] { 
+    margin-top: 3em;
+    float: none; 
+    width: 100%;
 }
 
 a img:hover{

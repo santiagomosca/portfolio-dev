@@ -5,18 +5,37 @@
 {% block content %}
 <div class="row">
  <div class="col-md-12">
-  <h1>{{ article.title }}</h1>
-    <label>Skills: 
-    {% for tag in article.tags %}
-        <a href="{{ SITEURL }}/tag/{{tag}}.html">{{ tag }}</a>
-    {% endfor %}
-    </label>
+     <h1><strong>Project Details | </strong>{{ article.title }}</h1>
+     <br>
+     <h4 style="padding-left: 7%; padding-right: 7%;">{{article.summary}}</h4>
      
-     {% if  article.featured_image %}
-        <img src="{{ article.featured_image }}" class="img-responsive img-rounded">
-     {% endif %}
-  <label>Project Date: <strong>{{ article.date|strftime('%Y') }}</strong></label>
-  {{ article.content }}
+     
+     <div class="content">
+         <hr style="border-width: thin; border-color: black">
+         <p><strong>Skills Used -- </strong>
+    {% for tag in article.tags %}
+        <a href="{{ SITEURL }}/tag/{{tag.slug}}.html">{{ tag }}</a> | 
+    {% endfor %}
+    </p>
+     
+
+         <p><strong>Project Date -- </strong> {{ article.date|strftime('%Y') }}</p>
+         
+    
+         {% if  article.repository %}
+                <p><a href="{{article.repository}}">
+                    <img src="theme/img/github.png" style="height:25px" class="icon">
+                    </a><strong>- Repository -- </strong> <a href="{{article.repository}}">{{article.repository}}</a></p>
+         {% endif %}
+
+        {% if  article.projectlink %}
+                <p><strong>Link to Project -- </strong> <a href="{{article.projectlink}}">{{article.projectlink}}</a></p>
+         {% endif %}
+         
+         <hr style="border-width: thin; border-color: black; padding-bottom: 4%;">
+
+         <p>{{ article.content }}</p>
+     </div>
  </div>
 </div>
 {% endblock %}
