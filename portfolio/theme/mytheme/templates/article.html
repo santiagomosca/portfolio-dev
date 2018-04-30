@@ -22,14 +22,21 @@
          <p><strong>Project Date -- </strong> {{ article.date|strftime('%Y') }}</p>
          
     
-         {% if  article.repository %}
-                <p><a href="{{article.repository}}">
-                    <img src="theme/img/github.png" style="height:25px" class="icon">
-                    </a><strong>- Repository -- </strong> <a href="{{article.repository}}">{{article.repository}}</a></p>
-         {% endif %}
+
 
         {% if  article.projectlink %}
                 <p><strong>Link to Project -- </strong> <a href="{{article.projectlink}}">{{article.projectlink}}</a></p>
+         {% endif %}
+         
+        {% if  article.report %}
+                <p><strong>Full report -- </strong> <a href="{{article.report}}">Click here</a></p>
+         {% endif %}
+         
+         
+            {% if  article.repository %}
+                <p><a href="{{article.repository}}">
+                    <img src="theme/img/github.png" style="height:25px" class="icon">
+                    </a><strong>- Repository -- </strong> <a href="{{article.repository}}">{{article.repository}}</a></p>
          {% endif %}
          
          <hr style="border-width: thin; border-color: black; padding-bottom: 4%;">

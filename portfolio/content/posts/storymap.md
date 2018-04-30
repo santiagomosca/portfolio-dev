@@ -1,12 +1,11 @@
 Title: Storymap
-Date: 2018-12-03
+Date: 2018-02-03
 Category: Data Visualisation
 Tags: data visualisation, webdesign, maps, story telling, visual analytics
 Slug: storymap
 Author: Livia Jakob
-summary: Telling a complex story with maps and visual elements.
+summary: Telling a complex story about street gangs of El Salvador with maps and visual elements.
 featured_image: img/storymap7.jpg
-repository: www.liviajakob.ch
 projectlink: https://arcg.is/S5CH
 
 
@@ -26,7 +25,7 @@ With my Storymap I aim to reduce prejudices and to shed a different light on the
 
 ## Example Maps
 
-See screenshots of interactive and static example maps. For more see: [https://arcg.is/S5CH](https://arcg.is/S5CH)
+Screenshots of interactive and static example maps. For more see full project: [https://arcg.is/S5CH](https://arcg.is/S5CH)
 
 [![large]({filename}/img/storymap2.png)]({filename}/img/storymap2.png)
 
