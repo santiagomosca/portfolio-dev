@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }}{% endblock %}
+
+{% block content %}
+<div class="row">
+ <div class="col-md-12">
+  <h1>{{ article.title }}</h1>
+    <label>Skills: 
+    {% for tag in article.tags %}
+        <a href="{{ SITEURL }}/tag/{{tag}}.html">{{ tag }}</a>
+    {% endfor %}
+    </label>
+     
+     {% if  article.featured_image %}
+        <img src="{{ article.featured_image }}" class="img-responsive img-rounded">
+     {% endif %}
+  <label>Project Date: <strong>{{ article.date|strftime('%Y') }}</strong></label>
+  {{ article.content }}
+ </div>
+</div>
+{% endblock %}
