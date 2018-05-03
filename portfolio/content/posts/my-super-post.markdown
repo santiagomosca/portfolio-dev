@@ -6,10 +6,10 @@ Tags: pelican, publishing
 Slug: my-super-post
 Author: Livia Jakob
 Summary: Short version for index and feeds
-featured_image: img/3.jpg
+featured_image: img/5.jpg
 
 
 
 Content
 
-![Alt Text]({filename}/img/test.JPG)
+![medium]({filename}/img/3.jpg)

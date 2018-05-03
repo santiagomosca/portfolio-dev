@@ -16,11 +16,16 @@ PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 
+
+TAG_SAVE_AS = '{slug}.html'
+TAG_URL = '{slug}.html'
+
 TIMEZONE = 'Europe/Paris'
 
 GITHUB_URL = 'https://github.com/liviajakob'
 
 DEFAULT_LANG = 'en'
+SUMMARY_MAX_LENGTH = 20
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

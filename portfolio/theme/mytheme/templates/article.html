@@ -14,7 +14,7 @@
          <hr style="border-width: thin; border-color: black">
          <p><strong>Skills Used -- </strong>
     {% for tag in article.tags %}
-        <a href="{{ SITEURL }}/tag/{{tag.slug}}.html">{{ tag }}</a> | 
+        <a href="{{ SITEURL }}/{{tag.slug}}.html">{{ tag }}</a> | 
     {% endfor %}
     </p>
      

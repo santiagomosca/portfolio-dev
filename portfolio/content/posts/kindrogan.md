@@ -12,5 +12,3 @@ featured_image: img/3.jpg
 
 **Role within group:** Project Manager, Webdesign and Webprogramming
 We won the price for the best project and presentation out of 10 groups.
-
-![Alt Text]({filename}/img/test.JPG)

@@ -15,6 +15,8 @@ report: img/docs/SOM_report.pdf
 [![tiny]({filename}/img/soms.png)]({filename}/img/soms.png)
 This project applies the Self-Organising Maps (SOM) machine learning technique to Scottish deprivation data from Edinburgh. SOMs offer insights that can't be explored or displayed with the linear deprivation indices. I used the **kohonen package** within the software **RStudio**. Code can be found in my [GitHub repository](https://github.com/liviajakob/self-organising-maps/).
 
+I think the data exploration etchnique SOMs is a very powerful technique to analyse spatial data, especially when the data is multi-dimensional.
+
 Read more about Self-organising maps for spatial data in my [blog post](http://www.geo-blog.com/soms-for-geographical-data/).
 
 ## What are SOMs?
