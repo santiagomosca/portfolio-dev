@@ -17,7 +17,8 @@ Install dependencies:
 
 Run:
 
-```cd portfolio
+```
+cd portfolio
 cd portfolio
 cd output
 bash ../script.bash
