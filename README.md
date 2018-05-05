@@ -1,7 +1,7 @@
 # GIS Portfolio
 A portfolio created with pelican, a static HTML site generator in python using Jinja2 templates
 
-**Result:** [www.livia.geo-blog.com](www.livia.geo-blog.com)
+**Result:** [www.livia.geo-blog.com](http://www.livia.geo-blog.com)
 
 &nbsp;
 
