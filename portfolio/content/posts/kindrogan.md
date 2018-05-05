@@ -1,7 +1,7 @@
 Title: Webbased Tourist Guide
 Date: 2017-10-10
 Category: Websites
-Tags: fieldwork, webdesign, project management, maps, html, css, webprogramming
+Tags: fieldwork, webdesign, project management, maps, webprogramming
 Slug: kindrogan
 Author: Livia Jakob
 Summary: I managed a group project to create a webbased tourist guide for the Kindrogan area.

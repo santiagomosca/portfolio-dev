@@ -4,7 +4,7 @@ Category: Spatial Analysis
 Tags: machine learning, R, spatial analysis, statistics, data exploration, data visualisation
 Slug: soms
 Author: Livia Jakob
-Summary: Using machine learning to explore spatial data (Scottish deprivation data).
+Summary: Using machine learning to explore spatial data (Scottish deprivation data)
 featured_image: img/soms.png
 repository: https://github.com/liviajakob/self-organising-maps/
 report: img/docs/SOM_report.pdf

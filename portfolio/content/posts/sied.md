@@ -4,7 +4,7 @@ Category: Spatial Analysis
 Tags: spatial analysis, MCA, statistics, maps, problem solving, arcGIS, project management
 Slug: sied
 Author: Livia Jakob
-Summary: Establishing a Scottish Index of Environmental Disadvantage with a MCA.
+Summary: Establishing a Scottish Index of Environmental Disadvantage with a MCA
 featured_image: img/sied6.png
 report: img/docs/SIED.pdf
 

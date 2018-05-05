@@ -13,10 +13,15 @@
      <div class="content">
          <hr style="border-width: thin; border-color: black">
          
-        <p><strong>Project Date -- </strong> {{ article.date|strftime('%Y') }}</p>
+        <p>
+            <img src="theme/img/date3.png" style="height:25px" class="icon">  
+            
+            <strong> | Project Date -- </strong> {{ article.date|strftime('%Y') }}</p>
          
          
-         <p><strong>Skills Used -- </strong>
+         <p>
+                <img src="theme/img/skills2.png" style="height:25px" class="icon">             
+             <strong> | Skills Used -- </strong>
     {% for tag in article.tags %}
         <a href="{{ SITEURL }}/{{tag.slug}}.html">{{ tag }}</a> | 
     {% endfor %}
@@ -28,18 +33,22 @@
 
 
         {% if  article.projectlink %}
-                <p><strong>Link to Project -- </strong> <a target="_blank" href="{{article.projectlink}}">{{article.projectlink}}</a></p>
+                            <p><a target="_blank" href="{{article.projectlink}}" class="icons">
+                    <img src="theme/img/link2.png" style="height:25px" class="icon"></a>
+                <strong> | Link to Project -- </strong> <a target="_blank" href="{{article.projectlink}}">{{article.projectlink}}</a></p>
          {% endif %}
          
         {% if  article.report %}
-                <p><strong>Full Report / Paper -- </strong> <a target="_blank" href="{{article.report}}">Click here</a></p>
+                <p><a target="_blank" href="{{article.report}}" class="icons">
+                    <img src="theme/img/report2.png" style="height:26px" class="icon"></a>
+                <strong>| Full Report / Paper -- </strong> <a target="_blank" href="{{article.report}}">Click here</a></p>
          {% endif %}
          
          
             {% if  article.repository %}
-                <p><a target="_blank" href="{{article.repository}}">
-                    <img src="theme/img/github.png" style="height:25px" class="icon">
-                    </a><strong>- Repository -- </strong> <a target="_blank" href="{{article.repository}}">{{article.repository}}</a></p>
+                <p><a target="_blank" href="{{article.repository}}" class="icons">
+                    <img src="theme/img/github.png" style="height:25px" class="icon"></a>
+                    <strong> | Repository -- </strong> <a target="_blank" href="{{article.repository}}">{{article.repository}}</a></p>
          {% endif %}
          
          <hr style="border-width: thin; border-color: black; padding-bottom: 4%;">

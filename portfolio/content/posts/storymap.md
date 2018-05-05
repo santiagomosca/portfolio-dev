@@ -4,7 +4,7 @@ Category: Data Visualisation
 Tags: data visualisation, webdesign, maps, story telling, visual analytics
 Slug: storymap
 Author: Livia Jakob
-summary: Telling a complex story about street gangs of El Salvador with maps and visual elements.
+summary: Telling a complex story about street gangs of El Salvador with maps and visual elements
 featured_image: img/storymap7.jpg
 projectlink: https://arcg.is/S5CH
 

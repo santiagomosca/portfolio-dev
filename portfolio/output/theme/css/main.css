@@ -28,9 +28,18 @@ background-color: gostwhite;
     padding-top: 5%;
 }
 
+.content-small{
+    padding-left: 7%; 
+    padding-right: 7%; 
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+
 .intro p::first-letter { 
-    font-size: 150%;
-    color: darkred;
+    font-size: 120%;
+/*    color: darkred;*/
+    font-weight: 300;
 }
 
 
@@ -73,7 +82,6 @@ h6 a { color: inherit !important }
 
 
 
-
 a:link, a    { color: darkred; text-decoration: none;      }
 a:hover, a:focus, a:focus-within   { color: darkred; text-decoration: underline; }
 a:active, .active { color: darkred; text-decoration: underline;}
@@ -92,7 +100,7 @@ nav.navbar-nav a:active {color: darkred;}
 }
 
 #footer{    
-    margin-top: 2%;
+    margin-top: 1%;
         float: right;
     text-align: right;
         margin-left: 10%;
@@ -104,6 +112,17 @@ nav.navbar-nav a:active {color: darkred;}
     align-items: center;
 
 }
+
+
+.container .icons li{
+        display: inline;
+    align-items: center;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
 
 #footer a{
     text-decoration: none;
@@ -128,7 +147,7 @@ pre {
     margin-bottom: 2em;
 /*    border: thin solid black;*/
 /*    border-radius: 7px;*/
-    background-color: RGB(240, 128, 128, 0.5);
+    background-color: RGB(193, 98, 98, 0.4);
 }
 
 .containertumb:hover .tumb {
@@ -232,6 +251,15 @@ img[alt=small] {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+img[alt=vsmall] { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
     margin-top: 3em;
     margin-bottom: 2em;
 }
