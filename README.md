@@ -1,15 +1,18 @@
-# GIS Portfolio
-A portfolio created with pelican, a static HTML site generator in python using Jinja2 templates
+# Personal Portfolio
+A portfolio created with pelican, a static HTML site generator in python using
+Jinja2 templates. Based on Livia Jakob's [portfolio repository][1].
 
-**Result:** [www.livia.geo-blog.com](http://www.livia.geo-blog.com)
+[1]: https://github.com/liviajakob/portfolio
+
+**Result:** [www.santiagomosca.info](https://www.santiagomosca.info)
 
 &nbsp;
 
-**Use my portfolio as template:**
+**Use this portfolio as template:**
 
 Clone repo:
 
-```git clone http://github.com/liviajakob/portfolio```
+```git clone http://github.com/santiagomosca/portfolio-dev```
 
 Install dependencies:
 
