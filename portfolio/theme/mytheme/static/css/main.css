@@ -37,9 +37,9 @@ background-color: gostwhite;
 
 
 .intro p::first-letter { 
-    font-size: 120%;
+/*    font-size: 120%;*/
 /*    color: darkred;*/
-    font-weight: 300;
+/*    font-weight: 300;*/
 }
 
 

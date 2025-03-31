@@ -20,11 +20,11 @@ PAGE_SAVE_AS = '{slug}.html'
 TAG_SAVE_AS = '{slug}.html'
 TAG_URL = '{slug}.html'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Madrid'
 
-GITHUB_URL = 'https://github.com/liviajakob'
+GITHUB_URL = 'https://github.com/santiagomosca'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = 'es'
 SUMMARY_MAX_LENGTH = 20
 
 # Feed generation is usually not desired when developing
@@ -40,7 +40,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/livia-jakob/'),)
+#SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/livia-jakob/'),)
 
 DEFAULT_PAGINATION = False
 
