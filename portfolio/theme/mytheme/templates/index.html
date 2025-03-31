@@ -6,74 +6,30 @@
 
 <h1><strong>{{ SITENAME }} |</strong> {{AUTHOR}}</h1>
     <div class="intro">
-        <p><strong> Hi, my name is Santiago</strong> and I am a Geographical
-        Information Scientist, always looking for new innovative ways to
-        explore, analyse and visualise spatial data. Data can be beatiful and I
-        love to exploit this, for instance by telling stories with maps.</p>
-        
-        <p><strong>I'm</strong> also very passionate about programming (python, Java, SQL, web-programming) and *User-Centered Design* in software engineering. The beauty and usefulness of things that can be built out of nearly nothing, simply based on computer science, amazes me!</p>
-        
-        <p>In my free time I find myself dedicating a lot of voluntary work and personal effort to the educational project <strong>Consciente El Salvador</strong>. I have built up this project in 2012 together with my sister and a team of local people in El Salvador and since then the project is running with great success. It focuses on rendering education more critical and creative, and on improving the overall access to education, backed by evaluational research in cooperation with the University of Bern.
+        <p><strong>Hola, me llamo Santiago</strong> y, si tuviera que definirme
+        en una palabra, esa sería <strong>curioso</strong>. La curiosidad me ha
+        llevado a través de varias disciplinas y el camino, aunque sinuoso, ha
+        sido fructífero y gratificante.</p>
 
-        <strong>See website: <a target="_blank" href="https://consciente.ch">consciente.ch</a></strong> (website unfortunately not available in English yet, but I'm working on this!)</p>
+        <p>Actualmente trabajo como <strong>Investigador Predoctoral</strong>
+        en el <a target="_blank" href="https://www.iqf.csic.es/es/">Instituto
+        de Química Física Blas Cabrera</a> del CSIC en Madrid, España.
         
-        <p>I'm also currently setting up <strong>Geo-Blog</strong>, a platform for young Geoscientists to share their ideas and projects. Check out my latest blog posts! If you are looking for a place to share and discuss geographical projects feel free to sign up! <strong>See website: <a target="_blank" href="http://www.geo-blog.com">www.geo-blog.com</a></p></p>
-        
-    </div>
-    
-   
-    <h1><strong>GIS |</strong> My Projects</h1>
-    <br>
-    <br>
-    
-    <div class="row">
-  {% for article in articles %}
-    {% if  loop.index0 is divisibleby 3 %}
-    </div>
-        <div class="row">
-    {% endif %}
-        
-    <div class="col-md-4">
-        {% if  article.featured_image %}
-        <div class="containertumb">
-            <a href="{{article.slug}}.html">
-                <img src="{{ article.featured_image }}" style="width:100%" class="tumb">
-                  <div class="middle">
-                      <div class="text"><h2>{{ article.title}}</h2>
-                      </div>
-                  </div>
-                <div class="middleback">
-                      <div class="middlebacktext">
-<!--                          <p><strong>Project Date: </strong>{{ article.date|strftime('%Y') }}</p>-->
-                          {% if  article.summary %}
-                          <p><strong>Summary:</strong> {{article.summary}}</p>
-                          {% endif %}
-                          <hr>
-                          <p><strong>Skills:</strong>
-                          {% for tag in article.tags %}
-                                 {{ tag }} |
-                            {% endfor %}
-                          </p>
-                      </div>
-                  </div>
-            </a>
-        </div>
-        {% endif %}
-   <!--h2><a href="/{{ article.slug }}.html">{{ article.title }}</a></h2>
-   <label>Project Date: <strong>{{ article.date|strftime('%Y') }}</strong></label>
-   {{ article.content|truncate(3) }}-->
-<!--
-    {% if  loop.index0|float//3 ==2 and not(loop.index0==(articles|length)) %}
-    </div>
-    {% endif %}  
--->
-            
-            
-    </div>
-        
-        
-  {% else %}
-   No projects yet!
-  {% endfor %}
+        <p>Anteriormente, <strong>en Argentina</strong>, realicé investigación
+        desde 2017 en el Grupo de Materiales Granulares, ubicado en la Facultad
+        Regional La Plata de la Universidad Tecnológica Nacional, y desde 2020
+        en el Instituto de Física de Líquidos y Sistemas Biológicos,
+        dependiente de CONICET y la Universidad Nacional de La Plata.</p>
+
+        <p><strong>Ingeniero mecánico</strong> de formación, el interés por
+        modelar sistemas me llevó a usar dinámica de fluidos computacional
+        para buscar mejoras en el campo de la energía eólica. Posteriormente,
+        el estudio de fluidos confinados me involucró con simulaciones de
+        dinámica molecular. El uso de herramientas de informática, transversal
+        a la actividad científica, me resultó lúdico y apasionante. Ahora,
+        en el programa <strong>Momentum</strong>, tengo la oportunidad de
+        profundizar este camino aprendiendo técnicas de Machine Learning e
+        Inteligencia Artificial.</p>
+
     </div>
 {% endblock %}

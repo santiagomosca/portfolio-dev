@@ -17,17 +17,13 @@
          
          <hr style="border-width: thin; border-color: black">
      
-            <p><a href="mailto:livia.jakob@geo-blog.com" class="icons">
+            <p><a href="mailto:santiagomosca85@gmail.com" class="icons">
                 <img src="theme/img/email.png" style="height:28px" class="icon"></a>
-             <strong> | Email -- </strong> <a target="_blank" href="mailto:livia.jakob@geo-blog.com">livia.jakob@geo-blog.com</a></p>
+             <strong> | Email -- </strong> <a target="_blank" href="mailto:santiagomosca85@gmail.com">santiagomosca85@gmail.com</a></p>
      
-              <p><a target="_blank" href="https://www.linkedin.com/in/livia-jakob/" class="icons">
-                <img src="theme/img/linkedin.png" style="height:27.5px" class="icon"></a>
-             <strong> | Linkedin -- </strong> <a target="_blank" href="https://www.linkedin.com/in/livia-jakob/">www.linkedin.com/in/livia-jakob</a></p>
-         
-            <p><a target="_blank" href="https://github.com/liviajakob/" class="icons">
+            <p><a target="_blank" href="https://github.com/santiagomosca/" class="icons">
                 <img src="theme/img/github.png" style="height:28px" class="icon"></a>
-             <strong> | GitHub -- </strong> <a target="_blank" href="https://github.com/liviajakob/">www.github.com/liviajakob</a></p>       
+             <strong> | GitHub -- </strong> <a target="_blank" href="https://github.com/santiagomosca/">www.github.com/santiagomosca</a></p>       
          <hr style="border-width: thin; border-color: black">    
      </div>
 {% endif %}
@@ -35,6 +31,57 @@
      <div class= "content">
          <p>{{ page.content }}</p>
      </div>
+
+{%if page.showcases == "yes"%}
+  {% for article in articles %}
+    {% if  loop.index0 is divisibleby 3 %}
+    </div>
+        <div class="row">
+    {% endif %}
+        
+    <div class="col-md-4">
+        {% if  article.featured_image %}
+        <div class="containertumb">
+            <a href="{{article.slug}}.html">
+                <img src="{{ article.featured_image }}" style="width:100%" class="tumb">
+                  <div class="middle">
+                      <div class="text"><h2>{{ article.title}}</h2>
+                      </div>
+                  </div>
+                <div class="middleback">
+                      <div class="middlebacktext">
+<!--                          <p><strong>Project Date: </strong>{{ article.date|strftime('%Y') }}</p>-->
+                          {% if  article.summary %}
+                          <p><strong>Summary:</strong> {{article.summary}}</p>
+                          {% endif %}
+                          <hr>
+                          <p><strong>Skills:</strong>
+                          {% for tag in article.tags %}
+                                 {{ tag }} |
+                            {% endfor %}
+                          </p>
+                      </div>
+                  </div>
+            </a>
+        </div>
+        {% endif %}
+   <!--h2><a href="/{{ article.slug }}.html">{{ article.title }}</a></h2>
+   <label>Project Date: <strong>{{ article.date|strftime('%Y') }}</strong></label>
+   {{ article.content|truncate(3) }}-->
+<!--
+    {% if  loop.index0|float//3 ==2 and not(loop.index0==(articles|length)) %}
+    </div>
+    {% endif %}  
+-->
+            
+            
+    </div>
+        
+        
+  {% else %}
+   No projects yet!
+  {% endfor %}
+{% endif %}
      
  </div>
 </div>

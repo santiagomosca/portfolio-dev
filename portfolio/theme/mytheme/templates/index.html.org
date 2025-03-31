@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }}{% endblock %}
+
+{% block content %}
+
+<h1><strong>{{ SITENAME }} |</strong> {{AUTHOR}}</h1>
+    <div class="intro">
+        <p><strong> Hi, my name is Santiago</strong> and I am a Geographical
+        Information Scientist, always looking for new innovative ways to
+        explore, analyse and visualise spatial data. Data can be beatiful and I
+        love to exploit this, for instance by telling stories with maps.</p>
+        
+        <p><strong>I'm</strong> also very passionate about programming (python, Java, SQL, web-programming) and *User-Centered Design* in software engineering. The beauty and usefulness of things that can be built out of nearly nothing, simply based on computer science, amazes me!</p>
+        
+        <p>In my free time I find myself dedicating a lot of voluntary work and personal effort to the educational project <strong>Consciente El Salvador</strong>. I have built up this project in 2012 together with my sister and a team of local people in El Salvador and since then the project is running with great success. It focuses on rendering education more critical and creative, and on improving the overall access to education, backed by evaluational research in cooperation with the University of Bern.
+
+        <strong>See website: <a target="_blank" href="https://consciente.ch">consciente.ch</a></strong> (website unfortunately not available in English yet, but I'm working on this!)</p>
+        
+        <p>I'm also currently setting up <strong>Geo-Blog</strong>, a platform for young Geoscientists to share their ideas and projects. Check out my latest blog posts! If you are looking for a place to share and discuss geographical projects feel free to sign up! <strong>See website: <a target="_blank" href="http://www.geo-blog.com">www.geo-blog.com</a></p></p>
+        
+    </div>
+
+    <h1><strong>GIS |</strong> My Projects</h1>
+    <br>
+    <br>
+    
+    <div class="row">
+  {% for article in articles %}
+    {% if  loop.index0 is divisibleby 3 %}
+    </div>
+        <div class="row">
+    {% endif %}
+        
+    <div class="col-md-4">
+        {% if  article.featured_image %}
+        <div class="containertumb">
+            <a href="{{article.slug}}.html">
+                <img src="{{ article.featured_image }}" style="width:100%" class="tumb">
+                  <div class="middle">
+                      <div class="text"><h2>{{ article.title}}</h2>
+                      </div>
+                  </div>
+                <div class="middleback">
+                      <div class="middlebacktext">
+<!--                          <p><strong>Project Date: </strong>{{ article.date|strftime('%Y') }}</p>-->
+                          {% if  article.summary %}
+                          <p><strong>Summary:</strong> {{article.summary}}</p>
+                          {% endif %}
+                          <hr>
+                          <p><strong>Skills:</strong>
+                          {% for tag in article.tags %}
+                                 {{ tag }} |
+                            {% endfor %}
+                          </p>
+                      </div>
+                  </div>
+            </a>
+        </div>
+        {% endif %}
+   <!--h2><a href="/{{ article.slug }}.html">{{ article.title }}</a></h2>
+   <label>Project Date: <strong>{{ article.date|strftime('%Y') }}</strong></label>
+   {{ article.content|truncate(3) }}-->
+<!--
+    {% if  loop.index0|float//3 ==2 and not(loop.index0==(articles|length)) %}
+    </div>
+    {% endif %}  
+-->
+            
+            
+    </div>
+        
+        
+  {% else %}
+   No projects yet!
+  {% endfor %}
+    </div>
+{% endblock %}
