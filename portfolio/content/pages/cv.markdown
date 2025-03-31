@@ -1,16 +1,12 @@
 Title: CV
 Slug: cv
 Author: Livia Jakob
-Summary: My CV
+Summary: Mi CV
 sortorder: 10
 icons: yes
 
+Mi CV está disponible [aquí]({filename}/img/docs/Mosca_S-CV-es.pdf).
 
-
-Check out my [LinkedIn page](https://www.linkedin.com/in/livia-jakob/) to see my CV.
-
-
-
-[![large]({filename}/img/livia.jpeg)]({filename}/img/livia.jpeg)
+[![large]({filename}/img/Mosca_S-cluster.jpeg)]({filename}/img/Mosca_S-cluster.jpeg)
 
 &nbsp;
