@@ -1,9 +1,12 @@
+---
 Title: Formación
-Slug: education
+Slug: formacion
 Author: Santiago Mosca
 Summary: Mi formación
-sortorder: 10
-icons: no
+Sortorder: 10
+Icons: no
+Navigation: yes
+---
 
 Hice mis estudios secundarios en el Bachillerato de Bellas Artes "Francisco A.
 de Santo" en la ciudad de La Plata, en la orientación de música. Hasta el día
