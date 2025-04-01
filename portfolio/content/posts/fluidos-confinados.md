@@ -1,17 +1,17 @@
 ---
-Title: Hydrological Flow Model in Python
-Date: 2018-03-03
-Category: Spatial Algorithms
-Tags: spatial algorithms, python, matplotlib, object-oriented programming
-Slug: flow-model
-Author: Livia Jakob
-Summary: Implementation of the D8 algorithm, a lake identification and flow algorithm in python3
+Title: Fluidos confinados
+Date: 2025-03-31
+Category: Investigación
+Tags: fluidos confinados, dinámica molecular, python
+Slug: fluidos_confinados
+Author: Santiago Mosca
+Summary: Estudio de fluidos confinados en sistemas de interés tecnológicos.
 featured_image: img/flow-model.png
 repository: https://github.com/liviajakob/hydrological-model
-status: hidden
+status: published
 ---
 
-## **Project Overview |** Hydrological Flow Model in Python
+## **Project Overview |** Estudio de fluidos confinados en sistemas de interés tecnológico
 
 [![tiny]({filename}/img/flow-model.png)]({filename}/img/flow-model.png)
 

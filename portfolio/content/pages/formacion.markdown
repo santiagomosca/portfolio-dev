@@ -3,7 +3,7 @@ Title: Formación
 Slug: formacion
 Author: Santiago Mosca
 Summary: Mi formación
-Sortorder: 10
+Sortorder: 20
 Icons: no
 Navigation: yes
 ---
