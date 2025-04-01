@@ -51,29 +51,33 @@
    
     
 <!--  Footer   -->
-    <div class="container" id="footer">
-        <ul>
-            <li>
-                <a href="mailto:santiagomosca85@gmail.com">
-                    <img src="theme/img/email.png" style="height:28px" class="icon">
-                </a> 
-            
-            </li>   
-            <li><b>|</b></li>
+<div class="container" id="footer">
+        <div class="footer-primary"> <ul>
                 <li>
-                <a target="_blank" href="https://github.com/santiagomosca/">
-                    <img src="theme/img/github.png" style="height:28px" class="icon">
-                </a>
-            </li>
-            <li><b>|</b></li>
+                    <a href="mailto:santiagomosca85@gmail.com">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/email.png" style="height:28px" class="icon">
+                    </a>
+                </li>
+                <li><b>|</b></li>
                 <li>
-                <a target="_blank" href="https://scholar.google.es/citations?user=YG04j9QAAAAJ&hl=es">
-                    <img src="theme/img/google-scholar.png" style="height:28px" class="icon">
-                </a>
-            </li>
-        </ul>
-    </div>
-    
+                    <a target="_blank" href="https://github.com/santiagomosca/">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/github.png" style="height:28px" class="icon">
+                    </a>
+                </li>
+                <li><b>|</b></li>
+                <li>
+                    <a target="_blank" href="https://scholar.google.es/citations?user=YG04j9QAAAAJ&hl=es">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/google-scholar.png" style="height:28px" class="icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-secondary">
+        <p class="copyright">&copy; 2025 {{ AUTHOR }}. Este sitio está licenciado bajo la <a target="_blank" href="https://opensource.org/licenses/MIT">Licencia MIT</a>.</p>
+        <p class="copyright">Basado en un tema con licencia MIT creado por <a target="_blank" href="https://github.com/liviajakob">Livia Jakob</a>.</p>
+        <p class="copyright">Creado con <a target="_blank" href="https://getpelican.com/">Pelican</a>, un generador de sitios estáticos en Python.</p>
+        </div>
+</div>
 <!--  End Footer  -->
     
 </body>

@@ -128,6 +128,21 @@ nav.navbar-nav a:active {color: darkred;}
     text-decoration: none;
 }
 
+.footer-primary {
+  /* Estilos para la sección de contactos (si los necesitas) */
+  /*text-align: center;*/ /* Por ejemplo, para centrar los iconos */
+}
+
+.footer-secondary {
+  text-align: center; /* Centrar el contenido del copyright */
+  padding-top: 10px; /* Agregar un poco de espacio entre las secciones */
+}
+
+.footer-secondary .copyright {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño para el copyright */
+  margin-bottom: 0; /* Eliminar el margen inferior predeterminado del párrafo si es necesario */
+}
+
 #post-list {
     margin-bottom: 1em;
     margin-top: 1em;
