@@ -1,23 +1,21 @@
 
 body {
-    font-family: monospace;
-    font-size: 150%;
-    background-color: #f8f8ff;
-    /*background-color: ghostwhite;*/
+  font-family: monospace;
+  font-size: 150%;
+/*background-color: RGB(0, 128, 128, 0.3);*/
+  background-color: ghostwhite;
 }
 
 #main{
-    color: #11111;
+    color: #111;
     width: 80%;
     min-width: 400px;
     min-height: 200px;
     padding: 3em;
-    /*column-count: 1;*/
-    border: thin solid currentcolor;
-    border-radius: 20px;
+    border: thin solid black;
+    border-radius: 7px;
     display: block;
-    background-color: #f8f8ff;
-    background-color: ghostwhite;
+    background-color: gostwhite;
 }
 
 
@@ -103,10 +101,10 @@ nav.navbar-nav a:active {color: darkred;}
 
 #footer{    
     margin-top: 1%;
-    float: left;
-    text-align: none;
-    margin-left: 0%;
-    margin-right:0%;
+        float: right;
+    text-align: right;
+        margin-left: 10%;
+    margin-right:10%;
 }
 
 #footer li {
@@ -122,31 +120,27 @@ nav.navbar-nav a:active {color: darkred;}
 }
 
 .icons a{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
-/*#footer a{
+#footer a{
     text-decoration: none;
-}*/
+}
 
 .footer-primary {
-    float: none
-    text-align: right
   /* Estilos para la sección de contactos (si los necesitas) */
   /*text-align: center;*/ /* Por ejemplo, para centrar los iconos */
 }
 
 .footer-secondary {
-    // 
-    // text-align: center; /* Centrar el contenido del copyright */
-    // padding-top: 10px; /* Agregar un poco de espacio entre las secciones */
-    // 
+  text-align: center; /* Centrar el contenido del copyright */
+  padding-top: 10px; /* Agregar un poco de espacio entre las secciones */
 }
 
 .footer-secondary .copyright {
   font-size: 0.8em; /* Tamaño de fuente más pequeño para el copyright */
-  margin-bottom: 1%; /* Eliminar el margen inferior predeterminado del párrafo si es necesario */
+  margin-bottom: 0; /* Eliminar el margen inferior predeterminado del párrafo si es necesario */
 }
 
 #post-list {
@@ -247,6 +241,8 @@ pre {
 
 
 
+
+
 /*IMAGES*/
 
 img[alt=tiny] { 
@@ -256,11 +252,11 @@ img[alt=tiny] {
     padding-left: 10px;
 }
 
-img[alt=vsmall] { 
+img[alt=medium] { 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 70%;
     margin-top: 3em;
     margin-bottom: 2em;
 }
@@ -274,11 +270,11 @@ img[alt=small] {
     margin-bottom: 2em;
 }
 
-img[alt=medium] { 
+img[alt=vsmall] { 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 35%;
     margin-top: 3em;
     margin-bottom: 2em;
 }
