@@ -1,12 +1,14 @@
----
 Title: Portfolio
+Date: 2025-03-31 00:00
+Modified: 2025-03-31 00:00
 Slug: home
 Author: Santiago Mosca
 Summary: Portada del sitio
-Sortorder: 10
-Icons: no
+Lang: es
+Translation: false
 Status: published
----
+URL: home
+Icons: no
 
 **Hola, me llamo Santiago**. Si tuviera que definirme en una palabra, esa sería
 **curioso**. La curiosidad me ha llevado a través de varias disciplinas y el
@@ -31,8 +33,7 @@ transversal a esta actividad científica, me resultó lúdico y apasionante.
 Ahora, gracias a **Momentum**, tengo la oportunidad de profundizar este camino
 aprendiendo técnicas de *Machine Learning* e *Inteligencia Artificial*.
 
-**Mi CV** está disponible <a target="_blank"
-href="{{ SITEURL }}/{{ STATIC_PATHS[0] }}/docs/Mosca_S-CV-es.pdf">aquí</a>.
+**Mi CV** está disponible [aquí]({static}static/docs/Mosca_S-CV-es.pdf).
 
 <a href="{{ SITEURL }}/static/img/Mosca_S-cluster.jpeg">
     <img src="{{ SITEURL }}/static/img/Mosca_S-cluster.jpeg"

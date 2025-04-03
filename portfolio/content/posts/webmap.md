@@ -11,7 +11,7 @@ projectlink: https://www.geos.ed.ac.uk/~s1790173/cgi-bin/fields/fields.py
 
 ## **Project Overview |** Fields and Finds
 
-![tiny]({filename}/img/webmap.png)
+![tiny]({static}/img/webmap.png)
 
 
 For this project I have developed a database model and implemented it in an Oracle database. 
@@ -28,7 +28,7 @@ The webmap is **interactive** (hovering, clicking, querying and display/hide lay
 
 ## **Database Model |** Implemented in Oracle
 
-[![medium]({filename}/img/webmapdb.png)]({filename}/img/webmapdb.png)
+[![medium]({static}/img/webmapdb.png)]({static}/img/webmapdb.png)
 
 &nbsp;
 &nbsp;
@@ -38,9 +38,9 @@ The webmap is **interactive** (hovering, clicking, querying and display/hide lay
 
 &nbsp;
 
-[![medium]({filename}/img/webmap1.png)]({filename}/img/webmap1.png)
+[![medium]({static}/img/webmap1.png)]({static}/img/webmap1.png)
 
-[![small]({filename}/img/webmap2.png)]({filename}/img/webmap2.png)
+[![small]({static}/img/webmap2.png)]({static}/img/webmap2.png)
 
-[![small]({filename}/img/webmap3.png)]({filename}/img/webmap3.png)
+[![small]({static}/img/webmap3.png)]({static}/img/webmap3.png)
 

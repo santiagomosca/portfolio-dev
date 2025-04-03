@@ -1,13 +1,16 @@
-
-body {
-    font-family: monospace;
-    font-size: 150%;
+/* Theme color: background */
+body, #main {
     background-color: #f8f8ff;
     /*background-color: ghostwhite;*/
 }
 
+body {
+    font-family: monospace;
+    font-size: 150%;
+}
+
 #main{
-    color: #11111;
+    color: #111;
     width: 80%;
     min-width: 400px;
     min-height: 200px;
@@ -16,8 +19,6 @@ body {
     border: thin solid currentcolor;
     border-radius: 20px;
     display: block;
-    background-color: #f8f8ff;
-    background-color: ghostwhite;
 }
 
 
@@ -103,10 +104,10 @@ nav.navbar-nav a:active {color: darkred;}
 
 #footer{    
     margin-top: 1%;
-    float: left;
     text-align: none;
     margin-left: 0%;
     margin-right:0%;
+    display: inline;
 }
 
 #footer li {
@@ -122,31 +123,35 @@ nav.navbar-nav a:active {color: darkred;}
 }
 
 .icons a{
-    text-decoration: underline;
-}
-
-
-/*#footer a{
     text-decoration: none;
-}*/
-
-.footer-primary {
-    float: none
-    text-align: right
-  /* Estilos para la sección de contactos (si los necesitas) */
-  /*text-align: center;*/ /* Por ejemplo, para centrar los iconos */
 }
 
-.footer-secondary {
-    // 
-    // text-align: center; /* Centrar el contenido del copyright */
-    // padding-top: 10px; /* Agregar un poco de espacio entre las secciones */
-    // 
+
+#rrss{
+    margin-bottom: 1%;
+    float: right;
+    text-align: right;
+    margin-left: 0%;
+    margin-right:0%;
+    display: block;
 }
 
-.footer-secondary .copyright {
-  font-size: 0.8em; /* Tamaño de fuente más pequeño para el copyright */
-  margin-bottom: 1%; /* Eliminar el margen inferior predeterminado del párrafo si es necesario */
+#rrss li {
+    display: inline;
+    align-items: center;
+}
+
+#rrss a {
+    text-decoration: none;
+}
+
+#copyright {
+    min-width: 400px;
+    font-size: 0.8em;
+    margin-bottom: 1%;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
 }
 
 #post-list {

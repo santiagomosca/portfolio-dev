@@ -1,52 +1,51 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 
+#/ Site author, name and url
 AUTHOR = 'Santiago Mosca'
 SITENAME = 'Portfolio'
+BIND = 'localhost'
 SITEURL = ''
-
-THEME = "theme/mytheme"
-
+TIMEZONE = 'Europe/Madrid'
+DEFAULT_LANG = 'es'
+ 
+#/ Theme and contents
+THEME = 'theme/mytheme'
+RELATIVE_URL = False
 PATH = 'content'
-
-STATIC_PATHS = ['img']
+STATIC_PATHS = ['imgs', 'docs']
 
 PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 
-
-TAG_SAVE_AS = '{slug}.html'
 TAG_URL = '{slug}.html'
+TAG_SAVE_AS = '{slug}.html'
 
-TIMEZONE = 'Europe/Madrid'
-
-GITHUB_URL = 'https://github.com/santiagomosca'
-
-DEFAULT_LANG = 'es'
 SUMMARY_MAX_LENGTH = 20
 
-# Feed generation is usually not desired when developing
+#/ Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+ 
+#/ Variables
+GITHUB_URL = 'https://github.com/santiagomosca'
 
-# Blogroll
+#/ Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
-# Social widget
-#SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/livia-jakob/'),)
-
-DEFAULT_PAGINATION = False
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
-# Order pages and articles by attribute
-PAGE_ORDER_BY = 'attribute'
-ARTICLE_ORDER_BY = 'attribute'
+## # Social widget
+## #SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/livia-jakob/'),)
+## 
+## 
+## # Uncomment following line if you want document-relative URLs when developing
+## #RELATIVE_URLS = True
+## 
+## # Order pages and articles by attribute
+## PAGE_ORDER_BY = 'attribute'
+## ARTICLE_ORDER_BY = 'attribute'

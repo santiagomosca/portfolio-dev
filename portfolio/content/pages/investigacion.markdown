@@ -3,9 +3,9 @@ Title: Investigación
 Slug: investigacion
 Author: Santiago Mosca
 Summary: Mi investigación
-Sortorder: 10
+Sortorder: 5
 Icons: no
-Navigation: yes
+Satus: skip
 Showcase: yes
 ---
 
