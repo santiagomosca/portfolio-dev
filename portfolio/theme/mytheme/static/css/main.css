@@ -4,6 +4,23 @@ body, #main {
     /*background-color: ghostwhite;*/
 }
 
+/* Theme color: links */
+a, a:link, a:hover, a:focus, a:focus-within, a:active, .active, #navbar a:active, nav.navbar-nav a:active {
+    /*color: darkred;*/ /*rojo oscuro original*/
+    color: #0056b3; /*azul medio oscuro*/
+    /*color: #2c3e50;*/ /*azul grisáceo oscuro*/
+    /*color: #34495e;*/ /*similar al anterior, un poco más suave*/
+    /*color: #007bff;*/ /*azul primario de Bootstrap*/
+    /*color: #28a745;*/ /*verde más estándar*/
+    /*color: #1e7e34;*/ /*verde oscuro y discreto*/
+    /*color: #386641;*/ /*verde oliva oscuro, más sutil*/
+    /*color: #6f42c1;*/ /*morado más estándar*/
+    /*color: #4a148c;*/ /*morado oscuro e intenso*/
+    /*color: #5e35b1;*/ /*morado más suave pero aún distinguido*/
+    /*color: #ff7d75;*/
+}
+
+
 body {
   font-family: monospace;
   font-size: 150%;
@@ -63,7 +80,6 @@ h6 a { color: inherit !important }
 }
 
 #navbar a:active{
-    color: darkred;
     text-decoration: underline;
 }
 
@@ -84,13 +100,13 @@ h6 a { color: inherit !important }
 
 
 
-a:link, a    { color: darkred; text-decoration: none;      }
-a:hover, a:focus, a:focus-within   { color: darkred; text-decoration: underline; }
-a:active, .active { color: darkred; text-decoration: underline;}
-
-nav.navbar-nav a:active {color: darkred;}
-
-
+a, a:link {
+    /*color: darkred;*/
+    text-decoration: none;
+}
+.active, a:active, a:hover, a:focus, a:focus-within {
+    /*color: darkred;*/
+    text-decoration: underline; }
 
 
 #menu li {
