@@ -1,12 +1,10 @@
----
 Title: Licencias
 Slug: licencias
 Author: Santiago Mosca
 Summary: Licenciamiento del sitio
 Sortorder: 10
 Icons: no
-Navigation: no
----
+Status: hidden
 
 El contenido de este ste sitio (textos e imágenes, salvo indicación expresa)
 está bajo una <a target="_blank" rel="license"
