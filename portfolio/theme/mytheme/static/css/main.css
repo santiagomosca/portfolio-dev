@@ -1,42 +1,44 @@
+/* Theme color: background */
+body, #main {
+    background-color: #f8f8ff;
+    /*background-color: ghostwhite;*/
+}
 
 body {
   font-family: monospace;
   font-size: 150%;
-/*  background-color: RGB(0, 128, 128, 0.3);*/
-    background-color: ghostwhite;
 }
 
 #main{
     color: #111;
-  width: 80%;
-  min-width: 400px;
-  min-height: 200px;
-  padding: 3em;
-border: thin solid black;
-  border-radius: 7px;
-  display: block;
-background-color: gostwhite;
+    width: 80%;
+    min-width: 400px;
+    min-height: 200px;
+    padding: 3em;
+    border: thin solid currentcolor;
+    border-radius: 15px;
+    display: block;
 }
 
 
 .intro{
-    padding: 7%;   
+    padding: 7%;
 }
 
 .content{
-    padding: 7%; 
+    padding: 7%;
     padding-top: 5%;
 }
 
 .content-small{
-    padding-left: 7%; 
-    padding-right: 7%; 
+    padding-left: 7%;
+    padding-right: 7%;
     padding-top: 0%;
     padding-bottom: 0%;
 }
 
 
-.intro p::first-letter { 
+.intro p::first-letter {
 /*    font-size: 120%;*/
 /*    color: darkred;*/
 /*    font-weight: 300;*/
@@ -61,7 +63,7 @@ h6 a { color: inherit !important }
 }
 
 #navbar a:active{
-    color: darkred; 
+    color: darkred;
     text-decoration: underline;
 }
 
@@ -99,11 +101,11 @@ nav.navbar-nav a:active {color: darkred;}
     opacity: 0.5;
 }
 
-#footer{    
+#footer{
     margin-top: 1%;
-        float: right;
+    float: right;
     text-align: right;
-        margin-left: 10%;
+    margin-left: 10%;
     margin-right:10%;
 }
 
@@ -124,23 +126,31 @@ nav.navbar-nav a:active {color: darkred;}
 }
 
 
-#footer a{
+#rrss {
+    margin-bottom: -10%;
+    float: right;
+    text-align: right;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: block;
+}
+
+#rrss li {
+    display: inline;
+    align-items: center;
+}
+
+#rrss a {
     text-decoration: none;
 }
 
-.footer-primary {
-  /* Estilos para la sección de contactos (si los necesitas) */
-  /*text-align: center;*/ /* Por ejemplo, para centrar los iconos */
-}
-
-.footer-secondary {
-  text-align: center; /* Centrar el contenido del copyright */
-  padding-top: 10px; /* Agregar un poco de espacio entre las secciones */
-}
-
-.footer-secondary .copyright {
-  font-size: 0.8em; /* Tamaño de fuente más pequeño para el copyright */
-  margin-bottom: 0; /* Eliminar el margen inferior predeterminado del párrafo si es necesario */
+#copyright {
+    min-width: 400px;
+    font-size: 0.8em;
+    margin-bottom:1%;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
 }
 
 #post-list {
