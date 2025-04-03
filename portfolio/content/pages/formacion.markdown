@@ -1,12 +1,10 @@
----
 Title: Formación
 Slug: formacion
 Author: Santiago Mosca
 Summary: Mi formación
 Sortorder: 20
 Icons: no
-Navigation: yes
----
+Status: published
 
 Hice mis estudios secundarios en el Bachillerato de Bellas Artes "Francisco A.
 de Santo" en la ciudad de La Plata, en la orientación de música. Hasta el día
@@ -20,19 +18,19 @@ años, el interés por las humanidades pesó más.
 Comencé mis estudios universitarios en Psicología (UNLP). Al comienzo del
 tercer año (la carrera duraba seis) intuí que los temas, aunque interesantes,
 no serían una profesión para mí. Promediando el cuarto año abandoné la carrera.
-Intenté de nuevo, volviendo a lo que sabía que me gustaba, y así transcurrieron
+Intenté de nuevo, volviendo a lo que sabía que me gustaba. Así transcurrieron
 dos años estudiando Composición musical por medios electroacústicos (UNQ). Sin
 embargo, en materias como _Taller de Instrumental y Equipos_ o _Computación
-aplicada a Música_ (re)descubrí mi pasión por la técnica. Así, a mis 25 años y
-mientras ya tenía un trabajo de oficina, comencé a estudiar Ingeniería Mecánica
-en la [UTN FRLP][2]. Los motores fue lo que menos me interesó; los fundamentos
-matemáticos, la implicancia física de los conceptos y el uso de las
+aplicada a la Música_ (re)descubrí mi pasión por la técnica. Así, a mis 25 años
+y mientras ya tenía un trabajo de oficina, comencé a estudiar Ingeniería
+Mecánica en la [UTN FRLP][2]. Los motores fueron lo que menos me interesó; los
+fundamentos matemáticos, la implicancia física de los conceptos y el uso de las
 computadoras me cautivó y acercó a la investigación.
 
 [2]: https://www.frlp.utn.edu.ar/
 
 En 2020, luego de graduarme, comencé a realizar una serie de cursos de posgrado
-para adquirir habilidades que mejorar mi investigación. En ellos adquirí
+para adquirir habilidades que mejoraran mi investigación. En ellos adquirí
 fundamentos sobre la práctica científica, profundicé en cálculo numérico,
 exploré varias técnicas de simulación para sistemas en distintas escalas, y
 aprendí herramientas de programación para producir y analizar resultados.
